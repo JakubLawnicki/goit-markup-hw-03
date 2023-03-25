@@ -17,6 +17,7 @@
         font-family: "Roboto", sans-serif;
         color: #212121;
         background: #ffffff;
+        width: 100%;
       }
     </style>
     <meta charset="UTF-8" />
@@ -26,7 +27,7 @@
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="container header-border">
         <a class="webstudio" href="index.html">
           <span style="color: #2196f3">Web</span
           ><span style="color: #000000">Studio</span></a
@@ -56,7 +57,7 @@
     </header>
     <!-- Przyciski filtra -->
     <div>
-      <ul class="list">
+      <ul class="list filter">
         <li>
           <button class="filter-button" type="button">Wszystkie</button>
         </li>
@@ -170,18 +171,23 @@
       </ul>
     </div>
     <footer class="background-dark">
-      <a class="webstudio" href="index.html">
-        <span style="color: #2196f3">Web</span
-        ><span style="color: #ffffff">Studio</span></a
-      >
+      <div class="container">
+        <a class="webstudio" href="index.html">
+          <span style="color: #2196f3">Web</span
+          ><span style="color: #ffffff">Studio</span></a
+        >
 
-      <address class="city-street">m. Warszawa, Aleje Jerozolimskie 21</address>
+        <address class="city-street">
+          m. Warszawa, Aleje Jerozolimskie 21
+        </address>
 
-      <a class="contact-links-footer" href="mailto:info@example.com"
-        >info@example.com</a
-      >
-      <a class="contact-links-footer" href="tel:+48111111111"
-        >+48 111 111 111</a
+        <a class="contact-links-footer" href="mailto:info@example.com"
+          >info@example.com</a
+        >
+        <a class="contact-links-footer" href="tel:+48111111111"
+          >+48 111 111 111</a
+        >
+      </div>
       >
     </footer>
   </body>

@@ -12,13 +12,17 @@ ul {
 }
 
 a.contact-links-header[href="tel:+48111111111"] {
-  margin-right: 27px;
+  margin: 32px 0;
   align-items: center;
 }
 
 a.contact-links-header[href="mailto:info@devstudio.com"] {
-  margin-right: 50px;
+  margin: 32px 50px 32px 371px;
   align-items: center;
+}
+
+.activity {
+  flex-direction: column;
 }
 
 .background-dark {
@@ -56,11 +60,22 @@ a.contact-links-header[href="mailto:info@devstudio.com"] {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-items: center;
   align-items: center;
+  padding: 0 15px;
+}
+
+.container.section.activity > ul {
+  column-gap: 30px;
+}
+
+.filter {
+  margin: 94px 0 34px 0;
+  justify-content: center;
 }
 
 .filter-button {
@@ -93,6 +108,10 @@ a.contact-links-header[href="mailto:info@devstudio.com"] {
   cursor: pointer;
 }
 
+.header-border {
+  border-bottom: 1px solid #ececec;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -115,7 +134,6 @@ a.contact-links-header[href="mailto:info@devstudio.com"] {
   justify-content: center;
   text-align: center;
   align-items: center;
-  margin-top: 30px;
   margin-bottom: 200px;
 }
 
@@ -156,6 +174,12 @@ a.contact-links-header[href="mailto:info@devstudio.com"] {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
+  letter-spacing: 0.03em;
+  column-gap: 30px;
+}
+
+.lorem-list {
+  justify-content: space-between;
 }
 
 .main-heading {
@@ -163,17 +187,18 @@ a.contact-links-header[href="mailto:info@devstudio.com"] {
   font-size: 44px;
   line-height: 1.36;
   color: #ffffff;
-  width: 696px;
-  margin-top: 200px;
+  margin: 200px 0 30px 0;
   text-align: center;
+  max-width: 696px;
+  letter-spacing: 0.06em;
 }
 
 .navigation {
-  margin-right: 371px;
+  margin: 32px 0;
   width: 254px;
   justify-content: space-between;
-  align-items: center;
 }
+
 .projects-descriptions {
   font-size: 16px;
   line-height: 1.88;
@@ -190,12 +215,19 @@ a.contact-links-header[href="mailto:info@devstudio.com"] {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+.section {
+  padding: 94px 0;
+  max-width: 1200px;
 }
 
 .tertiary-heading {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
+  margin-bottom: 10px;
 }
 
 .webstudio {
@@ -203,5 +235,5 @@ a.contact-links-header[href="mailto:info@devstudio.com"] {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
-  margin: 24px 93px 25px 15px;
+  margin: 24px 93px 25px 0;
 }
