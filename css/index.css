@@ -128,12 +128,8 @@ div.container.section.activity ul {
 .head {
   display: flex;
   justify-content: space-between;
-
-  flex-wrap: wrap;
-}
-
-.header-border {
   border-bottom: 1px solid #ececec;
+  flex-wrap: wrap;
 }
 
 .hero {
