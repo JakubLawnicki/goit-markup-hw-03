@@ -19,14 +19,6 @@ a.contact-links-footer[href="mailto:info@example.com"] {
   margin-bottom: 9px;
 }
 
-a.contact-links-header[href="tel:+48111111111"] {
-  margin: 32px 0;
-}
-
-a.contact-links-header[href="mailto:info@devstudio.com"] {
-  margin: 32px 50px 32px 0;
-}
-
 .activity {
   flex-direction: column;
 }
@@ -58,11 +50,9 @@ a.contact-links-header[href="mailto:info@devstudio.com"] {
 }
 
 .contact-links-header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.71;
-  color: #757575;
-  text-decoration: none;
+  width: 295px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact-links-header:focus {
@@ -75,16 +65,18 @@ a.contact-links-header[href="mailto:info@devstudio.com"] {
 
 .container {
   max-width: 1200px;
-  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-items: center;
   align-items: center;
-  padding: 0;
+  padding: 0 15px;
 }
 
 .container.section.activity > ul {
+  display: flex;
+  justify-content: space-between;
   column-gap: 30px;
+  padding-inline-start: 0;
 }
 
 div.container.section.activity ul {
@@ -136,7 +128,8 @@ div.container.section.activity ul {
 .head {
   display: flex;
   justify-content: space-between;
-  padding: 0 15px;
+
+  flex-wrap: wrap;
 }
 
 .header-border {
@@ -185,6 +178,14 @@ div.container.section.activity ul {
   margin-bottom: 30px;
 }
 
+.link-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+  text-decoration: none;
+}
+
 .list {
   list-style-type: none;
   display: flex;
@@ -208,6 +209,9 @@ div.container.section.activity ul {
 
 .logo-navigation {
   display: flex;
+  justify-content: space-between;
+  max-width: 492px;
+  flex-wrap: wrap;
 }
 
 .lorem-list {
@@ -248,11 +252,13 @@ div.container.section.activity ul {
   font-size: 36px;
   line-height: 1.2;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .section {
-  padding: 94px 0;
+  padding: 94px 15px;
   max-width: 1200px;
+  align-items: normal;
 }
 
 .tertiary-heading {
@@ -260,6 +266,10 @@ div.container.section.activity ul {
   font-size: 14px;
   line-height: 1.1;
   margin-bottom: 10px;
+}
+
+.top-padding-none {
+  padding-top: 0;
 }
 
 ul.list.lorem-list li p {
