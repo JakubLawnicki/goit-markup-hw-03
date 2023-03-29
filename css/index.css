@@ -198,20 +198,20 @@ div.container.section.activity ul {
   display: flex;
 }
 
-.list.navigation li a {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  color: #212121;
-  text-decoration: none;
-}
-
 .list li a:hover {
   color: var(--hover-color);
 }
 
 .list li a:focus {
   color: var(--hover-color);
+}
+
+.list.navigation li a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  color: #212121;
+  text-decoration: none;
 }
 
 .logo-navigation {
@@ -300,12 +300,8 @@ ul.list.lorem-list li p {
   column-gap: 30px;
 }
 
-.webstudio-foot {
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  line-height: 1.2;
-  text-decoration: none;
-  margin-bottom: 20px;
+ul.list.projects li img {
+  display: block;
 }
 
 .webstudio {
@@ -314,4 +310,12 @@ ul.list.lorem-list li p {
   line-height: 1.2;
   text-decoration: none;
   margin-right: 93px;
+}
+
+.webstudio-foot {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  margin-bottom: 20px;
 }
