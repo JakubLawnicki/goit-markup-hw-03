@@ -198,7 +198,7 @@ div.container.section.activity ul {
   display: flex;
 }
 
-.list li a:hover {
+ul.list li a:hover {
   color: var(--hover-color);
 }
 
@@ -212,6 +212,14 @@ div.container.section.activity ul {
   line-height: 1.1;
   color: #212121;
   text-decoration: none;
+}
+
+.list.navigation li a:focus {
+  color: var(--hover-color);
+}
+
+.list.navigation li a:hover {
+  color: var(--hover-color);
 }
 
 .logo-navigation {
