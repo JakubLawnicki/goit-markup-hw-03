@@ -23,6 +23,13 @@ a.contact-links-footer[href="mailto:info@example.com"] {
   background: #2f303a;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  background: #ffffff;
+  width: 100%;
+}
+
 .card-staff {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -137,7 +144,6 @@ div.container.section.activity ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #ececec;
   flex-wrap: wrap;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -231,7 +237,7 @@ ul.list li a:hover {
 }
 
 .lorem-list {
-  justify-content: space-between;
+  column-gap: 30px;
 }
 
 .main-heading {
@@ -305,7 +311,6 @@ ul.list.lorem-list li p {
   line-height: 1.71;
   color: #757575;
   letter-spacing: 0.03em;
-  column-gap: 30px;
 }
 
 ul.list.projects li img {
