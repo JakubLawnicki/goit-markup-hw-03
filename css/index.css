@@ -174,6 +174,10 @@ div.container.section.activity ul {
   margin-bottom: 200px;
 }
 
+img {
+  display: block;
+}
+
 .john-doe {
   font-weight: 500;
   font-size: 16px;
@@ -266,7 +270,9 @@ ul.list li a:hover {
 
 .projects-box {
   padding: 19px 23px;
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .projects-descriptions {
@@ -311,10 +317,6 @@ ul.list.lorem-list li p {
   line-height: 1.71;
   color: #757575;
   letter-spacing: 0.03em;
-}
-
-ul.list.projects li img {
-  display: block;
 }
 
 .webstudio {
