@@ -23,6 +23,10 @@ a.contact-links-footer[href="mailto:info@example.com"] {
   background: #2f303a;
 }
 
+.background-staff {
+  background: #f5f4fa;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -149,6 +153,10 @@ div.container.section.activity ul {
   padding-bottom: 25px;
 }
 
+.header-line {
+  border-bottom: 1px solid #ececec;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -224,6 +232,11 @@ ul.list li a:hover {
   text-decoration: none;
 }
 
+.list.navigation li a[class="portfolio-active"],
+.list.navigation li a[class="agency-active"] {
+  color: var(--hover-color);
+}
+
 .list.navigation li a:focus {
   color: var(--hover-color);
 }
@@ -240,6 +253,17 @@ ul.list li a:hover {
   align-items: center;
 }
 
+.logo-web {
+  color: var(--hover-color);
+}
+
+.logo-studio-foot {
+  color: #ffffff;
+}
+
+.logo-studio-head {
+  color: #000000;
+}
 .lorem-list {
   column-gap: 30px;
 }
